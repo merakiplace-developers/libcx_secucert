@@ -5,7 +5,7 @@ setup(
     version="3.0.0",
     packages=find_packages(),
     package_data={
-        '': ['*.so', '*.egg-info'],
+        'libcx_secucert': ['libs/*.so', 'libs/*.egg-info'],
     },
     include_package_data=True,
 )
